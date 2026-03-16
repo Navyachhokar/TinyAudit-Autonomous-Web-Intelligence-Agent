@@ -32,3 +32,12 @@ TinyAudit uses the **TinyFish Web Agent API** to navigate websites like a human.
 - Install dependencies: npm install
 - Add your TINYFISH_API_KEY to a .env file.
 - Run: node agent.js
+
+### 📺 Project Demo
+<video src="./assets/TinyAudit Demo.mp4" controls="controls" style="max-width: 100%;"></video>
+
+### 📺 Demo Walkthrough
+1. **Goal Injection:** We pass a natural language goal: *"Find the price of the first book."*
+2. **Autonomous Navigation:** The agent identifies the `<a>` tag for the product and clicks it.
+3. **Data Extraction:** It scrapes the price while ignoring the surrounding ads and navigation menus.
+4. **Structured Output:** The result is returned as a clean JSON object.
