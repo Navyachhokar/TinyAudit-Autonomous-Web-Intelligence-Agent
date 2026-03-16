@@ -34,7 +34,7 @@ TinyAudit uses the **TinyFish Web Agent API** to navigate websites like a human.
 - Run: node agent.js
 
 ### 📺 Project Demo
-<video src="./assets/TinyAudit Demo.mp4" controls="controls" style="max-width: 100%;"></video>
+<video src="./assets/TinyAuditDemo.mp4" controls="controls" style="max-width: 100%;"></video>
 
 ### 📺 Demo Walkthrough
 1. **Goal Injection:** We pass a natural language goal: *"Find the price of the first book."*
